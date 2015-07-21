@@ -1,0 +1,132 @@
+<html>
+   <head>
+      <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+      <meta name="apple-touch-fullscreen" content="yes" />
+
+      <script type="text/javascript" src="{{media_url}}js/jquery-1.4.min.js"/></script>
+      <script type="text/javascript" src="http://www.google.com/jsapi?key={{ google_maps_api }}"></script>
+      <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+   </head>
+   <script type="text/javascript">
+
+      var map = null;
+      var latitude = null;
+      var longitude = null;
+      var default_zoom = 15;
+      var properties = eval({{properties|safe}});
+
+      function findLocation()
+      {
+         if (navigator.geolocation)
+         {
+            navigator.geolocation.getCurrentPosition(successCallBack, errorCallBack, {maximumAge:300000});
+         }
+      }
+
+      function successCallBack(position)
+      {
+          latitude = position.coords.latitude;
+          longitude = position.coords.longitude;
+      }
+
+      function errorCallBack()
+      {
+      }
+
+      function init()
+      {
+         findLocation();
+      }
+
+      $(document).ready(function()
+      {
+         $('select option[value=0]').attr('selected', 'selected');
+
+         $.each(properties, function()
+         {
+            $('#property').append('<option value="' + this.id + '">' + this.name + '</option>');
+         });
+
+         $('#property').change(function()
+         {
+            $('#imgdate option[value=0]').attr('selected', 'selected');
+            $('#imgtype option[value=0]').attr('selected', 'selected');
+            $('#imgtype [value!=0]').attr("disabled", true);
+
+            var propid = $('#property option:selected').val();
+            var image = null;
+
+            $.each(properties, function()
+            {
+               if (this.id == propid)
+               {
+                  $('#imgdate option[value!=0]').remove();
+                  $.each(this.image_dates, function()
+                  {
+                     $('#imgdate').append('<option value="' + this + '">' +  this + '</option>');
+                  });
+                  return false;
+               }
+            });
+         });
+
+         $('#imgdate').change(function()
+         {
+            $('#imgtype [value!=0]').attr("disabled", true);
+            $('#imgtype option[value=0]').attr('selected', 'selected');
+
+            var propid = $('#property option:selected').val();
+            var imgdate = $('#imgdate option:selected').val();
+
+            $.each(properties, function()
+            {
+               if (this.id == propid)
+               {
+                  $.each(this.images, function()
+                  {
+                     var imagetype_id = this.type;
+
+                     if (this.capture_date == imgdate)
+                        $('#imgtype [value=' + imagetype_id + ']').attr("disabled", false);
+                  });
+               }
+            });
+         });
+
+         $('#imgtype').change(function()
+         {
+            var propid = $('#property option:selected').val();
+            var imgdate = $('#imgdate option:selected').val();
+            var imgtype = $('#imgtype option:selected').val();
+            var loc = '/blueearth/mobile/showmap/' + propid + '/' + imgdate + '/' + imgtype;
+            window.location = loc;
+         });
+      });
+
+   </script>
+   </head>
+   <body onload="">
+      <div id='content' style='width: 100%;'>
+         <div>Property</div>
+         <select id='property' style='width: 100%;'>
+            <option value='0' selected>-- select property --</option>
+         </select>
+
+         <div>Image Date</div>
+         <select id='imgdate' style='width: 100%;'>
+            <option value='0' selected>-- select date --</option>
+         </select>
+
+         <div>Image Type</div>
+         <select id='imgtype' style='width: 100%;'>
+            <option value='0' selected>-- select type --</option>
+            {% for it in imagetypes %}
+               <option value='{{it.id}}' disabled>{{it.name}}</option>
+            {% endfor %}
+         </select>
+         <div style='position: relative; float: right;'>
+            <a href='/blueearth/mobile/logout/'>logout</a>
+         </div>
+      </div>
+   </body>
+</html>

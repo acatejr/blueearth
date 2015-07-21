@@ -1,0 +1,55 @@
+- fields: {address: 101 West Carey Road, city: Brawley, created_on: 2010-02-23, fax: '',
+    locked: 0, name: Helena Chemicals - Brawley, phone: 760-344-6400, state: CA, type: 0,
+    zipcode: '92227'}
+  model: blueearthapp.organization
+  pk: 1
+- fields: {address: 5300 Kalin Rd, city: Brawley, created_on: 2010-02-24, fax: '',
+    locked: 0, name: Kalin Farms, phone: '', state: CA, type: 1, zipcode: 92227-9804}
+  model: blueearthapp.organization
+  pk: 2
+- fields: {address: 413 West Hobsonway, city: Blythe, created_on: 2010-02-23, fax: '',
+    locked: 0, name: Stanworth Crop Consultants, phone: 760-922-3106, state: CA, type: 0,
+    zipcode: 92225-1508}
+  model: blueearthapp.organization
+  pk: 3
+- fields: {address: 400 Airport Blvd, city: Thermal, created_on: 2010-02-23, fax: '',
+    locked: 0, name: 'Rucker Homestead, Inc', phone: (760) 250-98, state: CA, type: 1,
+    zipcode: '92274'}
+  model: blueearthapp.organization
+  pk: 4
+- fields: {address: 5265 S Renewal Ln, city: Tucson, created_on: 2010-02-25, fax: 520-838-8083,
+    locked: 0, name: 'Blue Earth Imaging - Direct : AG', phone: 520-247-5134, state: AZ,
+    type: 0, zipcode: '85747'}
+  model: blueearthapp.organization
+  pk: 5
+- fields: {address: 333 East Barioni Boulevard, city: Imperial, created_on: 2010-02-23,
+    fax: '', locked: 0, name: Imperial Irrigation District, phone: 800-303-7756, state: CA,
+    type: 1, zipcode: 92251-1773}
+  model: blueearthapp.organization
+  pk: 6
+- fields: {address: '', city: '', created_on: 2010-02-23, fax: '', locked: 0, name: Demo
+      Row Crop Customer, phone: '', state: '', type: 1, zipcode: ''}
+  model: blueearthapp.organization
+  pk: 7
+- fields: {address: 5265 S. Renewal Ln, city: Tucson, created_on: 2010-02-23, fax: 520-838-8083,
+    locked: 0, name: Blue Earth Imaging - Demo, phone: 520-247-5134, state: Az, type: 0,
+    zipcode: '85747'}
+  model: blueearthapp.organization
+  pk: 8
+- fields: {address: 327 Terrace Dr, city: Brawley, created_on: 2010-02-23, fax: '',
+    locked: 0, name: Osterkamp Farms, phone: 760-344-3361, state: CA, type: 1, zipcode: '92227'}
+  model: blueearthapp.organization
+  pk: 9
+- fields: {address: '', city: '', created_on: 2010-02-23, fax: '', locked: 0, name: Benson
+      Farms Inc, phone: '', state: CA, type: 1, zipcode: ''}
+  model: blueearthapp.organization
+  pk: 10
+- fields: {address: '', city: '', created_on: 2010-02-23, fax: '', locked: 0, name: Oceano
+      Produce, phone: '', state: CA, type: 1, zipcode: ''}
+  model: blueearthapp.organization
+  pk: 11
+- fields: {address: 79-940 Westward Ho Dr, city: La Quinta, created_on: 2010-02-23,
+    fax: '', locked: 0, name: Indian Springs Golf Course, phone: '', state: CA, type: 1,
+    zipcode: '92248'}
+  model: blueearthapp.organization
+  pk: 12

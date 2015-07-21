@@ -1,0 +1,345 @@
+- fields:
+    date_joined: 2010-02-20 13:05:13
+    email: acatejr@gmail.com
+    first_name: Averill
+    groups: []
+    is_active: 1
+    is_staff: 1
+    is_superuser: 1
+    last_login: 2010-02-25 09:37:20
+    last_name: Cate Jr
+    password: sha1$6c079$706207f5d3766529be2a7471be31d3d1a07adfdf
+    user_permissions: []
+    username: acatejr
+  model: auth.user
+  pk: 1
+- fields:
+    date_joined: 2010-02-20 13:20:12
+    email: ''
+    first_name: Helena
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 09:49:51
+    last_name: Chemicals
+    password: sha1$53945$a0c9f4f4e7de610ff3d7408948ae7a94a3e270b8
+    user_permissions: []
+    username: Helena
+  model: auth.user
+  pk: 2
+- fields:
+    date_joined: 2010-02-23 11:09:16
+    email: akalin@hughes.net
+    first_name: Al
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 15:30:04
+    last_name: Kalin
+    password: sha1$46ccc$e71c7d71e997c04f21e0d33fd7c5ee62eb0c2630
+    user_permissions: []
+    username: akalin
+  model: auth.user
+  pk: 3
+- fields:
+    date_joined: 2010-02-23 10:22:00
+    email: kevindavidkoller@gmail.com
+    first_name: Kevin
+    groups: []
+    is_active: 1
+    is_staff: 1
+    is_superuser: 1
+    last_login: 2010-02-25 09:36:36
+    last_name: Koller
+    password: sha1$78971$016f24072743ecaa9cc637cc1855b982d5d96a2c
+    user_permissions: []
+    username: kkoller
+  model: auth.user
+  pk: 4
+- fields:
+    date_joined: 2010-02-23 10:22:43
+    email: aaronkoller@gmail.com
+    first_name: Aaron
+    groups: []
+    is_active: 1
+    is_staff: 1
+    is_superuser: 1
+    last_login: 2010-02-24 11:00:25
+    last_name: Koller
+    password: sha1$7e1d1$70af6729dbe45feaadb9151f5d87e1d9ea983928
+    user_permissions: []
+    username: akoller
+  model: auth.user
+  pk: 5
+- fields:
+    date_joined: 2010-02-23 18:53:16
+    email: troyhutchinson@gmail.com
+    first_name: Troy
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 15:04:40
+    last_name: Hutchinson
+    password: sha1$c911a$5c8c4442b0245e24bc7387640fea4570a3020f01
+    user_permissions: []
+    username: thutchinson
+  model: auth.user
+  pk: 6
+- fields:
+    date_joined: 2010-02-23 18:54:26
+    email: MKO499@aol.com
+    first_name: Mark
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 18:54:26
+    last_name: Ostrom
+    password: sha1$26a3b$1b57e0d92e2df762a68445252ae6cbec74947411
+    user_permissions: []
+    username: mostrom
+  model: auth.user
+  pk: 7
+- fields:
+    date_joined: 2010-02-23 18:55:10
+    email: mjbjkb@lightspeed.net
+    first_name: Mark
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-24 22:30:50
+    last_name: Brandenberg
+    password: sha1$1ba19$31f01fd9c7ac0aceee552f7e2b8bf69984a28aa5
+    user_permissions: []
+    username: mbrandenberg
+  model: auth.user
+  pk: 8
+- fields:
+    date_joined: 2010-02-23 18:55:53
+    email: bshrop@shroppy.com
+    first_name: Bo
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 18:55:53
+    last_name: Shropshire
+    password: sha1$c9f75$eb388996fbb4ea8a8f7835ba133b6440bbff9b85
+    user_permissions: []
+    username: bshropshire
+  model: auth.user
+  pk: 9
+- fields:
+    date_joined: 2010-02-23 18:56:46
+    email: PateC@helenachemical.com
+    first_name: Curtis
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 10:10:38
+    last_name: Pate
+    password: sha1$c7472$d17c3105fc23246a87d7f7d681620c96111fb515
+    user_permissions: []
+    username: cpate
+  model: auth.user
+  pk: 10
+- fields:
+    date_joined: 2010-02-23 18:57:26
+    email: Wheelerk@helenachemical.com
+    first_name: Kory
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 18:57:26
+    last_name: Wheeler
+    password: sha1$ccb5a$8eb2bdf78416eb074a05733d2eae99c29e060eb5
+    user_permissions: []
+    username: kwheeler
+  model: auth.user
+  pk: 11
+- fields:
+    date_joined: 2010-02-23 18:58:08
+    email: ruckerhomestead@aol.com
+    first_name: 'Bruce '
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 22:47:16
+    last_name: Rucker
+    password: sha1$0813b$9fc89e6b6c785abf06ed56e50caa5de6ad7f0321
+    user_permissions: []
+    username: brucker
+  model: auth.user
+  pk: 12
+- fields:
+    date_joined: 2010-02-23 19:16:10
+    email: aronq@stanworth.net
+    first_name: Aron
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 09:51:20
+    last_name: Quist
+    password: sha1$eeaf4$36984390e2559d04e6595dc55d16dfa2b1997863
+    user_permissions: []
+    username: aquist
+  model: auth.user
+  pk: 13
+- fields:
+    date_joined: 2010-02-23 20:59:35
+    email: ckalin@sbcglobal.net
+    first_name: 'Carson '
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 10:13:08
+    last_name: Kalin
+    password: sha1$9e55c$14300411b4bd81800e41dbe0545167255f7dc4ea
+    user_permissions: []
+    username: ckalin
+  model: auth.user
+  pk: 14
+- fields:
+    date_joined: 2010-02-23 21:02:16
+    email: BWilcox@iid.com
+    first_name: Bruce
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 21:02:16
+    last_name: Wilcox
+    password: sha1$b0259$eb387f980286a3c5996ddc570946eaf12c3942a1
+    user_permissions: []
+    username: bwilcox
+  model: auth.user
+  pk: 15
+- fields:
+    date_joined: 2010-02-23 21:03:19
+    email: jpwehler@iid.com
+    first_name: Jude
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 21:03:19
+    last_name: Wehler
+    password: sha1$99720$30eeb959151044e84b41b07489e388b454b1b45e
+    user_permissions: []
+    username: jpwehlet
+  model: auth.user
+  pk: 16
+- fields:
+    date_joined: 2010-02-23 21:06:03
+    email: ''
+    first_name: GUEST
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-24 22:32:16
+    last_name: GUEST
+    password: sha1$63a8a$e9acb4bb2a4f6d7a454bf1fffe85f1d1fceb0620
+    user_permissions: []
+    username: guest_row_crop
+  model: auth.user
+  pk: 17
+- fields:
+    date_joined: 2010-02-23 21:10:14
+    email: markosterkampfarms@yahoo.com
+    first_name: Mark
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 10:13:48
+    last_name: Osterkamp
+    password: sha1$a9c41$382ad8df091c8ca9cc71eba28f51e7419f8aca9c
+    user_permissions: []
+    username: mosterkamp
+  model: auth.user
+  pk: 18
+- fields:
+    date_joined: 2010-02-23 21:10:29
+    email: osterkampfarms@yahoo.com
+    first_name: Peter
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 10:14:06
+    last_name: Osterkamp
+    password: sha1$c97f5$2895407962023d1a34fc85bff2a35266d82db566
+    user_permissions: []
+    username: posterkamp
+  model: auth.user
+  pk: 19
+- fields:
+    date_joined: 2010-02-23 21:16:25
+    email: stephenwbenson@yahoo.com
+    first_name: 'Stephen '
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 15:27:42
+    last_name: Benson
+    password: sha1$d728a$2af2f595695fcb4f8b200e996ef40d542a7ea9ab
+    user_permissions: []
+    username: sbenson
+  model: auth.user
+  pk: 20
+- fields:
+    date_joined: 2010-02-23 21:20:19
+    email: ''
+    first_name: ''
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 21:20:19
+    last_name: ''
+    password: sha1$b7456$69848b3d1f31bbf8c7b3c28ce7ce993dfd51ded1
+    user_permissions: []
+    username: oceanoproduce
+  model: auth.user
+  pk: 21
+- fields:
+    date_joined: 2010-02-23 21:27:20
+    email: aa_alcocer@msn.com
+    first_name: Alfredo
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 21:27:20
+    last_name: Alcocer
+    password: sha1$38189$d9452db29f08288ba038c5366e0ec319dfea8e2e
+    user_permissions: []
+    username: aalcocer
+  model: auth.user
+  pk: 22
+- fields:
+    date_joined: 2010-02-25 10:06:07
+    email: randy@blueearthimaging.com
+    first_name: Randy
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-25 10:09:45
+    last_name: Holleschau
+    password: sha1$d0d31$e8bf394539f6abce2897c10433b1818b45b2a88c
+    user_permissions: []
+    username: rholleschau
+  model: auth.user
+  pk: 23

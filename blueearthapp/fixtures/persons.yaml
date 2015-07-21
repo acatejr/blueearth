@@ -1,0 +1,5 @@
+- fields: {address: '', agency: null, city: '', created_on: 2010-02-08, email: '',
+    fax: '', first_name: Helena, last_name: User, locked: 0, password: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8,
+    phone: '', state: '', type: null, username: helena, zipcode: ''}
+  model: blueearthapp.person
+  pk: 2

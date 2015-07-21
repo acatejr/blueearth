@@ -1,0 +1,12 @@
+2/4/2010 10:31:31 AM -  migrate app
+1/25/2010 10:38:04 AM - migrate database
+1/25/2010 9:25:06 AM - collapsing on left panel
+
+2/4/2010 10:06:48 AM - admin interface - 2/4/2010 10:31:19 AM
+2/4/2010 11:59:14 AM - double check login and logout methods for app and mobile site --> 2/4/2010 10:06:33 AM
+1/23/2010 5:26:40 PM - implement and fix mobile --> 1/28/2010 12:03:41 PM
+1/22/2010 3:42:38 PM - fix login screen --> 1/23/2010 5:25:02 PM done
+1/23/2010 5:25:11 PM - tidy up login screen --> 1/25/2010 9:24:51 AM
+1/27/2010 9:12:29 AM - center and zoom property on map load --> 1/28/2010 9:36:12 AM
+1/22/2010 2:25:15 PM - install python suds, python gdal, python mysql on M5 --> 1/28/2010 9:59:31 AM
+1/25/2010 10:37:55 AM - migrate to m5 and test --> 1/28/2010 5:30:01 PM

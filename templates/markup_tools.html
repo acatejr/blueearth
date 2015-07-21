@@ -1,0 +1,61 @@
+<div>
+   <div id='drawingtools' class='ui-widget-header'><a class='toggle' href='#'>Drawing &amp; Measurement Tools</a></div>
+   <table class='markup_tools_table' border='0' cellpadding='2' cellspacing='0' width'100%'>
+      <tr>
+         <td><div id='measure' class='markup_tool' title='Measure'></div></td>
+         <td><div id='addpoint' class='markup_tool' title='Create point marker'></div></td>
+         <td><div id='addline' class='markup_tool' title='Create line'></div></td>
+         <td><div id='addpolygon' class='markup_tool' title='Create polygon'></div></td>
+         <td><div class='markup_tool'>&nbsp;</div></td>
+         <td><div class='markup_tool'>&nbsp;</div></td>
+         <td><div id='exportlink' class='markup_tool' title='Export map link'></div></td>
+      </tr>
+   </table>
+   <table class='markup_tools_table' border='0' cellpadding='2' cellspacing='0' width='100%'>
+      <tr>
+         <td><div id='add_gps_point' class='markup_tool' title='Add GPS point'></div></td>
+         <td><div class='markup_tool'>&nbsp;</div></td>
+         <td><div class='markup_tool'>&nbsp;</div></td>
+         <td><div class='markup_tool'>&nbsp;</div></td>
+         <td colspan='2' width='80px' align='right'>
+	         <select id='exportType'>
+	            <option value='shp'>shp</option>
+	            <option value='kml'>kml</option>
+	         </select>
+
+         </td>
+         <td><div id='export_gps' class='markup_tool'></div></td>
+      </tr>
+   </table>
+   <table class='markup_tools_table' border='0' cellpadding='2' cellspacing='0' width='100%'>
+		<tr>
+         <td colspan='3'>Distance Units:</td>
+         <td colspan='3' align='right'>
+            <select id='distance_units' class='distance_units'>
+               <!-- Distance Units -->
+               <option value='0' selected>Feet</option>
+               <option value='1'>Yards</option>
+               <option value='2'>Miles</option>
+               <!--<option value='3'>Nautical Miles</option>-->
+               <option value='4'>Meters</option>
+               <option value='5'>Kilometers</option>
+            </select>
+         </td>
+      </tr>
+      <tr>
+         <td colspan='3'>Area Units:</td>
+         <td colspan='3' align='right'>
+            <select id='area_units' class='area_units'>
+               <!-- Area Units -->
+               <option value='0' selected>Acres</option>
+               <option value='1'>Sq. Feet</option>
+               <option value='2'>Sq. Yards</option>
+               <option value='3'>Sq. Miles</option>
+               <option value='5'>Sq. Meters</option>
+               <option value='6'>Sq. Kilometers</option>
+               <option value='7'>Hectares</option>
+            </select>
+         </td>
+      </tr>
+   </table>
+</div>

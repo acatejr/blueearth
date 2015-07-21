@@ -1,0 +1,3 @@
+- fields: {name: M5}
+  model: blueearthapp.server
+  pk: 1

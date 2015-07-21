@@ -1,0 +1,240 @@
+- fields:
+    agent: [23]
+    area: null
+    center_elev: null
+    center_lat: 33.08043
+    center_lon: -115.65282000000001
+    created_on: 2010-02-25
+    croptype: null
+    customer: 2
+    field_number: '24'
+    locked: 0
+    name: Kalin Trif 9
+    resolution: null
+    zoom: 10
+  model: blueearthapp.property
+  pk: 1
+- fields:
+    agent: [23]
+    area: null
+    center_elev: null
+    center_lat: 33.035469999999997
+    center_lon: -115.53961
+    created_on: 2010-02-25
+    croptype: null
+    customer: 2
+    field_number: '36'
+    locked: 0
+    name: Kalin Fuller
+    resolution: null
+    zoom: 10
+  model: blueearthapp.property
+  pk: 2
+- fields:
+    agent: [9]
+    area: null
+    center_elev: null
+    center_lat: 33.055599999999998
+    center_lon: -115.6604
+    created_on: 2010-02-25
+    croptype: null
+    customer: 2
+    field_number: '40'
+    locked: 0
+    name: Kalin BN1, BN2
+    resolution: null
+    zoom: 10
+  model: blueearthapp.property
+  pk: 3
+- fields:
+    agent: [9]
+    area: null
+    center_elev: null
+    center_lat: 33.076819999999998
+    center_lon: -115.65357
+    created_on: 2010-02-25
+    croptype: null
+    customer: 2
+    field_number: '76'
+    locked: 0
+    name: Kalin R1
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 4
+- fields:
+    agent: [6]
+    area: null
+    center_elev: null
+    center_lat: 33.209119999999999
+    center_lon: -115.53261999999999
+    created_on: 2010-02-25
+    croptype: null
+    customer: 6
+    field_number: '62'
+    locked: 0
+    name: Marsh Land Reclamation
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 5
+- fields:
+    agent: [6]
+    area: null
+    center_elev: null
+    center_lat: 33.06447
+    center_lon: -115.37514
+    created_on: 2010-02-25
+    croptype: null
+    customer: 7
+    field_number: '82'
+    locked: 0
+    name: Mayflower 7
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 6
+- fields:
+    agent: [6]
+    area: null
+    center_elev: null
+    center_lat: 32.927669999999999
+    center_lon: -115.46229
+    created_on: 2010-02-25
+    croptype: null
+    customer: 9
+    field_number: '81'
+    locked: 0
+    name: Redwood 90E
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 7
+- fields:
+    agent: [8]
+    area: null
+    center_elev: null
+    center_lat: 33.547600000000003
+    center_lon: -116.0307
+    created_on: 2010-02-25
+    croptype: null
+    customer: 7
+    field_number: '37'
+    locked: 0
+    name: Brandenberg 2
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 8
+- fields:
+    agent: [10]
+    area: null
+    center_elev: null
+    center_lat: 33.072780000000002
+    center_lon: -115.583
+    created_on: 2010-02-25
+    croptype: null
+    customer: 10
+    field_number: '77'
+    locked: 0
+    name: Bensen Tamarak 222
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 9
+- fields:
+    agent: [10]
+    area: null
+    center_elev: null
+    center_lat: 33.05733
+    center_lon: -115.61758
+    created_on: 2010-02-25
+    croptype: null
+    customer: 10
+    field_number: '71'
+    locked: 0
+    name: Benson Tri 475-476
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 10
+- fields:
+    agent: [9]
+    area: null
+    center_elev: null
+    center_lat: 32.831029999999998
+    center_lon: -115.47234
+    created_on: 2010-02-25
+    croptype: null
+    customer: 11
+    field_number: '80'
+    locked: 0
+    name: Roselle 7
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 11
+- fields:
+    agent: [7]
+    area: null
+    center_elev: null
+    center_lat: 33.56223
+    center_lon: -116.02212
+    created_on: 2010-02-25
+    croptype: null
+    customer: 4
+    field_number: '5'
+    locked: 0
+    name: Rucker
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 12
+- fields:
+    agent: [9]
+    area: null
+    center_elev: null
+    center_lat: 33.076860000000003
+    center_lon: -115.68804
+    created_on: 2010-02-25
+    croptype: null
+    customer: 2
+    field_number: '85'
+    locked: 0
+    name: Reston 10
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 13
+- fields:
+    agent: [9]
+    area: null
+    center_elev: null
+    center_lat: 33.084110000000003
+    center_lon: -115.66195
+    created_on: 2010-02-25
+    croptype: null
+    customer: 2
+    field_number: '84'
+    locked: 0
+    name: Reston 7
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 14
+- fields:
+    agent: [23]
+    area: null
+    center_elev: null
+    center_lat: 33.716999999999999
+    center_lon: -116.2687
+    created_on: 2010-02-25
+    croptype: null
+    customer: 12
+    field_number: '38'
+    locked: 0
+    name: Indian Springs Golf Course
+    resolution: null
+    zoom: null
+  model: blueearthapp.property
+  pk: 15

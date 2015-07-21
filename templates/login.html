@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>Blue Earth Imaging - Login</title>
+      <link type='text/css' href='{{media_url}}css/blueearth.css' rel='stylesheet'></link>
+   </head>
+
+   <body>
+      {% include 'header.html' %}
+
+      <div style='width: 300px;'>
+         <form action='/blueearth/login/' method='post'>
+            <table style='font-size: .95em;'>
+               <!-- <tr><td>User Name:</td><td><input type='text' name='uid' value='Helena'/></td></tr>-->
+               <tr><td>User Name:</td><td><input type='text' name='uid' value=''/></td></tr>
+               <!--<tr><td>Password:</td><td><input type='password' name='pwd' value='password'/></td></tr>-->
+	       <tr><td>Password:</td><td><input type='password' name='pwd' value=''/></td></tr>
+               <tr><td colspan='2' align='center'><input type='submit' value='Login'/></td></tr>
+               {% if message %}
+               <tr>
+                  <td colspan='2' align='center'>
+                     <div id='login_message'>{{ message }}</div>
+                     <div><a href='/blueearth/password_reset/'>Password reset?</a></div>
+                  </td>
+               </tr>
+               {% endif %}
+            </table>
+         </form>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block left_panel %}
+   {% if user.is_superuser %}
+      {% include 'agencies.html' %}
+   {% endif %}
+   {% if agents %}
+      {% include 'agents.html' %}
+   {% endif %}
+   {% include 'properties.html' %}
+   {% include 'imagedates.html' %}
+   {% include 'imagetypes.html' %}
+   {% include 'markup_tools.html' %}
+   {% include 'markup_console.html' %}
+{% endblock %}
+
+{% block content %}
+   <div id='map'></div>
+{% endblock %}
+
+{% block console %}
+   {% include 'console.html' %}
+{% endblock %}

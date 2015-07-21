@@ -1,0 +1,13 @@
+<div>
+   <div class='ui-widget-header'><a class='toggle' href='#' class='toggle'>Users/Agents</a></div>
+   <div>
+	   <select id='agents' class='item-list'>
+   	   <option value='0'>-- select agent --</option>
+         {% if agents %}
+   	      {% for a in agents %}
+   	         <option value='{{a.id}}'>{{a.first_name}} {{a.last_name}}</option>
+   	      {% endfor %}
+   	   {% endif %}
+      </select>
+   </div>
+</div>

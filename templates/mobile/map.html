@@ -1,0 +1,158 @@
+<html>
+   <head>
+      <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+      <meta name="apple-touch-fullscreen" content="yes" />
+
+      <script type="text/javascript" src="{{media_url}}js/jquery-1.4.min.js"/></script>
+      <script type="text/javascript" src="http://www.google.com/jsapi?key={{ google_maps_api }}"></script>
+      <script type='text/javascript' src='{{media_url}}js/wms236.js'></script>
+
+      <style type='text/css'>
+         body, table
+         {
+            font-size: 0.85em;
+            margin: 0px;
+            padding: 0px;
+         }
+      </style>
+
+   </head>
+   <script type='text/javascript'>
+      google.load("maps", "2", {"other_params":"sensor=true"});
+
+      // The google map object
+      var map = null;
+
+      var layer = null;
+
+      var wms_url = "http://64.156.193.50/ecwp/ecw_wms.dll?";
+
+      // Default map center properties
+      var default_center = [{{property.center_lat}}, {{property.center_lon}}];
+
+      var default_zoom = 13;
+
+      var image = "{{image}}";
+
+      //var latitude = null;
+      var latitude = {{property.center_lat}};
+
+      var longitude = {{property.center_lat}};
+      
+      var updateLocation = null;
+      
+      var point = null;
+
+      /**
+      * Turn on a WMS layer
+      * @param: lname the layer name
+      */
+      function showLayer(lname)
+      {
+         var tile = new GTileLayer(new GCopyrightCollection(""),0, 23);
+         tile.myLayers = 'images_' + lname;
+         tile.myMercZoomLevel = map.getZoom();
+         tile.myFormat = 'image/png';
+         tile.myBaseURL = wms_url;
+         tile.getTileUrl = CustomGetTileUrl;
+         tile.getOpacity = function() {return 1.0;}
+         layer = new GTileLayerOverlay(tile);
+         map.addOverlay(layer);
+      }
+
+      function findLocation()
+      {
+         if (navigator.geolocation)
+         {
+            navigator.geolocation.getCurrentPosition(successCallback, errorCallback,{maximumAge: 300000, timeout:0});
+            updateLocation = navigator.geolocation.watchPosition(successCallback, errorCallback);
+            //navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+            //alert(latitude + ", " + longitude);
+         }
+      }
+
+      function successCallback(position)
+      {
+         latitude = position.coords.latitude;
+         longitude = position.coords.longitude;
+         point.x = longitude;
+         point.y = latitude;
+         window.status = "Your location: " + latitude + "," + longitude;
+      }
+
+      function errorCallback()
+      {
+         //alert("Sorry, unable to find your location.")
+         return;
+      }
+
+      function center()
+      {
+         map.setCenter(new GLatLng(default_center[0], default_center[1]), default_zoom, G_NORMAL_MAP);
+         $('#lat').html(default_center[0]);
+         $('#lon').html(default_center[1]);
+      }
+
+      function findMe()
+      {
+         // Add a marker
+         findLocation();
+         point = new GLatLng(latitude, longitude);
+         var zoom = default_zoom;
+         map.addOverlay(new GMarker(point));
+         map.setCenter(point, zoom);
+         $('#lat').html(latitude.toFixed(5));
+         $('#lon').html(longitude.toFixed(5));
+      }
+
+      //$(document).ready(function()
+      function load()
+      {
+         map = new GMap2(document.getElementById('map'),{mapTypes:[G_NORMAL_MAP]});
+         //map.addControl(new GSmallMapControl());
+         map.addControl(new GMapTypeControl());
+         map.setCenter(new GLatLng(default_center[0], default_center[1]), default_zoom);
+         showLayer(image);
+         findLocation();
+
+         // Add the user's current location as a point marker         
+         point = new GLatLng(latitude, longitude);
+         var zoom = default_zoom;
+         map.addOverlay(new GMarker(point));
+         
+      }
+      //});
+   </script>
+   <body onload='load();'>
+      <table width='100%' height='100%' border='0' cellpadding='0' cellspacing='0'>
+         <tr valign='top' height='20px;' style='background-color: #E5E5E5;'>
+            <td colspan='4'>Field Name: &nbsp; {{property.name}}</td>
+         </tr>
+         <tr valign='top' height='20px;' style='background-color: #E5E5E5;'>
+            <td>Date: {{imgdate}}</td>
+            <td>Image Type: &nbsp; {{imgtype}}</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+         </tr>
+         <tr height='20px;' style='background-color: #E5E5E5;'>
+            <td><input type='button' value='Find Me' onclick='findMe();' style='font-size: .75em;'/></td>
+            <td align='left'>
+               Lat: <span id='lat'>{{property.center_lat}}</span>
+               &nbsp;
+               Lon: <span id='lon'>{{property.center_lon}}</span>
+            </td>
+            <td>
+               <input type='button' value='Recenter' onclick='center();' style='font-size: .75em;'/>
+            </td>
+            <td>
+               <a href='/blueearth/mobile/logout/'>logout</a>
+            </td>
+         </tr>
+         <tr height='*'>
+            <td colspan='4'>
+               <div id='map' style='width: 100%; height: 100%;'></div>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>

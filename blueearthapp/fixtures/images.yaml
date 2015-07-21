@@ -1,0 +1,1013 @@
+- fields: {aircraft: null, camera: null, capture_date: 2009-04-04, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 1, published_date: null, resolution: null, server: null,
+    webserver_layer: kalin_trif_9_155-156_rgb.ecw}
+  model: blueearthapp.image
+  pk: 1
+- fields: {aircraft: null, camera: null, capture_date: 2009-04-04, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 1, published_date: null, resolution: null, server: null,
+    webserver_layer: kalin_trif_9_rgb_ir.ecw}
+  model: blueearthapp.image
+  pk: 2
+- fields: {aircraft: null, camera: null, capture_date: 2009-04-24, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 1, published_date: null, resolution: null, server: null,
+    webserver_layer: kalin_trif_9_ndvi_georef_250.ecw}
+  model: blueearthapp.image
+  pk: 3
+- fields: {aircraft: null, camera: null, capture_date: 2009-06-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 2, published_date: null, resolution: null, server: null,
+    webserver_layer: al_kalin_fuller_12band_georef_250_cropped_rgb.ecw}
+  model: blueearthapp.image
+  pk: 4
+- fields: {aircraft: null, camera: null, capture_date: 2009-06-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 2, published_date: null, resolution: null, server: null,
+    webserver_layer: al_kalin_fuller_12band_georef_250_cropped_ndvi.ecw}
+  model: blueearthapp.image
+  pk: 5
+- fields: {aircraft: null, camera: null, capture_date: 2009-06-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 2, published_date: null, resolution: null, server: null,
+    webserver_layer: al_kalin_fuller_12band_georef_250_cropped_ndvihd.ecw}
+  model: blueearthapp.image
+  pk: 6
+- fields: {aircraft: null, camera: null, capture_date: 2009-06-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 2, published_date: null, resolution: null, server: null,
+    webserver_layer: al_kalin_fuller_12band_georef_250_cropped_cir.ecw}
+  model: blueearthapp.image
+  pk: 7
+- fields: {aircraft: null, camera: null, capture_date: 2009-01-01, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalin-bn1-bn2_250_rgb.jp2}
+  model: blueearthapp.image
+  pk: 8
+- fields: {aircraft: null, camera: null, capture_date: 2009-01-01, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalin-bn1-bn2_250_cir.jp2}
+  model: blueearthapp.image
+  pk: 9
+- fields: {aircraft: null, camera: null, capture_date: 2009-07-11, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalinbnx_250_cir.ecw}
+  model: blueearthapp.image
+  pk: 10
+- fields: {aircraft: null, camera: null, capture_date: 2009-07-11, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalinbnx_250_ndvi.ecw}
+  model: blueearthapp.image
+  pk: 11
+- fields: {aircraft: null, camera: null, capture_date: 2009-07-11, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalinbnx_250_ndvihd.ecw}
+  model: blueearthapp.image
+  pk: 12
+- fields: {aircraft: null, camera: null, capture_date: 2009-07-11, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalinbnx_250_rgb.ecw}
+  model: blueearthapp.image
+  pk: 13
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 19
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 20
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0002_color.jp2}
+  model: blueearthapp.image
+  pk: 21
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 22
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 23
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 24
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 25
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0020_ndvihd_fixed-02.jp2}
+  model: blueearthapp.image
+  pk: 26
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000005_1250_0020_ndvihd_fixed.jp2}
+  model: blueearthapp.image
+  pk: 27
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 28
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_change_fixed.jp2}
+  model: blueearthapp.image
+  pk: 29
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 30
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_cir_fixed.jp2}
+  model: blueearthapp.image
+  pk: 31
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 32
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_fpar_fixed.jp2}
+  model: blueearthapp.image
+  pk: 33
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 34
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 35
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_ndvihd_fixed.jp2}
+  model: blueearthapp.image
+  pk: 36
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_ndvi_fixed.jp2}
+  model: blueearthapp.image
+  pk: 37
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 38
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100116_000037_1250_0002_rgb_fixed.jp2}
+  model: blueearthapp.image
+  pk: 39
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000062_2500_0011_change.jp2}
+  model: blueearthapp.image
+  pk: 40
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000062_2500_0011_cir.jp2}
+  model: blueearthapp.image
+  pk: 41
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000062_2500_0011_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 42
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000062_2500_0011_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 43
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000062_2500_0011_rgb.jp2}
+  model: blueearthapp.image
+  pk: 44
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000071_2500_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 45
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000071_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 46
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000071_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 47
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000071_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 48
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000071_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 49
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000076_2500_0017_Change.jp2}
+  model: blueearthapp.image
+  pk: 50
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000076_2500_0017_Cir.jp2}
+  model: blueearthapp.image
+  pk: 51
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000076_2500_0017_Color.jp2}
+  model: blueearthapp.image
+  pk: 52
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000076_2500_0017_Fpar.jp2}
+  model: blueearthapp.image
+  pk: 53
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000076_2500_0017_Ndvi.jp2}
+  model: blueearthapp.image
+  pk: 54
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000076_2500_0017_Ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 55
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000076_2500_0017_RGB.jp2}
+  model: blueearthapp.image
+  pk: 56
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000077_2500_0015_change.jp2}
+  model: blueearthapp.image
+  pk: 57
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000077_2500_0015_cir.jp2}
+  model: blueearthapp.image
+  pk: 58
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000077_2500_0015_color.jp2}
+  model: blueearthapp.image
+  pk: 59
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000077_2500_0015_fpar.jp2}
+  model: blueearthapp.image
+  pk: 60
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000077_2500_0015_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 61
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000077_2500_0015_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 62
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000077_2500_0015_rgb.jp2}
+  model: blueearthapp.image
+  pk: 63
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000080_2500_0000_change.jp2}
+  model: blueearthapp.image
+  pk: 64
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000080_2500_0000_cir.jp2}
+  model: blueearthapp.image
+  pk: 65
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000080_2500_0000_color.jp2}
+  model: blueearthapp.image
+  pk: 66
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000080_2500_0000_fpar.jp2}
+  model: blueearthapp.image
+  pk: 67
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000080_2500_0000_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 68
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000080_2500_0000_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 69
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000080_2500_0000_rgb.jp2}
+  model: blueearthapp.image
+  pk: 70
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000081_2500_0016_change.jp2}
+  model: blueearthapp.image
+  pk: 71
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000081_2500_0016_cir.jp2}
+  model: blueearthapp.image
+  pk: 72
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000081_2500_0016_color.jp2}
+  model: blueearthapp.image
+  pk: 73
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000081_2500_0016_fpar.jp2}
+  model: blueearthapp.image
+  pk: 74
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000081_2500_0016_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 75
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000081_2500_0016_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 76
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000081_2500_0016_rgb.jp2}
+  model: blueearthapp.image
+  pk: 77
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000082_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 78
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000082_2500_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 79
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000082_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 80
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000082_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 81
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-16, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100116_000082_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 82
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000005_1250_0020_change.jp2}
+  model: blueearthapp.image
+  pk: 83
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000005_1250_0020_cir.jp2}
+  model: blueearthapp.image
+  pk: 84
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000005_1250_0020_fpar.jp2}
+  model: blueearthapp.image
+  pk: 85
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000005_1250_0020_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 86
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000005_1250_0020_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 87
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000005_1250_0020_rgb.jp2}
+  model: blueearthapp.image
+  pk: 88
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 1, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000024_2500_0017_change.jp2}
+  model: blueearthapp.image
+  pk: 89
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 1, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000024_2500_0017_cir.jp2}
+  model: blueearthapp.image
+  pk: 90
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 1, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000024_2500_0017_color.jp2}
+  model: blueearthapp.image
+  pk: 91
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 1, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000024_2500_0017_fpar.jp2}
+  model: blueearthapp.image
+  pk: 92
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 1, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000024_2500_0017_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 93
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 1, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000024_2500_0017_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 94
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 1, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000024_2500_0017_rgb.jp2}
+  model: blueearthapp.image
+  pk: 95
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000037_1250_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 96
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000037_1250_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 97
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000037_1250_0002_color.jp2}
+  model: blueearthapp.image
+  pk: 98
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000037_1250_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 99
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000037_1250_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 100
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000037_1250_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 101
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000037_1250_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 102
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000038_1250_0005_cir.jp2}
+  model: blueearthapp.image
+  pk: 103
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000038_1250_0005_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 104
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000038_1250_0005_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 105
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100130_000038_1250_0005_rgb.jp2}
+  model: blueearthapp.image
+  pk: 106
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000062_2500_0011_change.jp2}
+  model: blueearthapp.image
+  pk: 107
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000062_2500_0011_cir.jp2}
+  model: blueearthapp.image
+  pk: 108
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000062_2500_0011_fpar.jp2}
+  model: blueearthapp.image
+  pk: 109
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000062_2500_0011_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 110
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000062_2500_0011_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 111
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000062_2500_0011_rgb.jp2}
+  model: blueearthapp.image
+  pk: 112
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000082_2500_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 113
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000082_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 114
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000082_2500_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 115
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000082_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 116
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000082_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 117
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000082_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 118
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000084_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 119
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000084_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 120
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000084_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 121
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000084_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 122
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000085_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 123
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000085_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 124
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000085_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 125
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-30, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100130_000085_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 126
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000005_1250_0020_change.jp2}
+  model: blueearthapp.image
+  pk: 127
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000005_1250_0020_cir.jp2}
+  model: blueearthapp.image
+  pk: 128
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000005_1250_0020_color.jp2}
+  model: blueearthapp.image
+  pk: 129
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000005_1250_0020_fpar.jp2}
+  model: blueearthapp.image
+  pk: 130
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000005_1250_0020_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 131
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000005_1250_0020_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 132
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 12, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000005_1250_0020_rgb.jp2}
+  model: blueearthapp.image
+  pk: 133
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000037_1250_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 134
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000037_1250_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 135
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000037_1250_0002_color.jp2}
+  model: blueearthapp.image
+  pk: 136
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000037_1250_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 137
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000037_1250_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 138
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000037_1250_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 139
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 8, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000037_1250_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 140
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000038_1250_0005_cir.jp2}
+  model: blueearthapp.image
+  pk: 141
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000038_1250_0005_color.jp2}
+  model: blueearthapp.image
+  pk: 142
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000038_1250_0005_fpar.jp2}
+  model: blueearthapp.image
+  pk: 143
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000038_1250_0005_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 144
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000038_1250_0005_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 145
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 15, published_date: null, resolution: 5, server: null, webserver_layer: 20100212_000038_1250_0005_rgb.jp2}
+  model: blueearthapp.image
+  pk: 146
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000062_2500_0011_change.jp2}
+  model: blueearthapp.image
+  pk: 147
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000062_2500_0011_cir.jp2}
+  model: blueearthapp.image
+  pk: 148
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000062_2500_0011_fpar.jp2}
+  model: blueearthapp.image
+  pk: 149
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000062_2500_0011_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 150
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000062_2500_0011_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 151
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 5, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000062_2500_0011_rgb.jp2}
+  model: blueearthapp.image
+  pk: 152
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000071_2500_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 153
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000071_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 154
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000071_2500_0002_color.jp2}
+  model: blueearthapp.image
+  pk: 155
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000071_2500_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 156
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000071_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 157
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000071_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 158
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 10, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000071_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 159
+- fields: {aircraft: 1, camera: 1, capture_date: 2010-03-01, croptype: 2, description: ' ',
+    flight_time: null, image_processing_version: '', imagetype: 1, locked: 0, property: 12,
+    published_date: null, resolution: 5, server: 1, webserver_layer: 20100301_000005_1250_0020_rgb.jp2}
+  model: blueearthapp.image
+  pk: 160
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000076_2500_0017_cir.jp2}
+  model: blueearthapp.image
+  pk: 161
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000076_2500_0017_color.jp2}
+  model: blueearthapp.image
+  pk: 162
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000076_2500_0017_fpar.jp2}
+  model: blueearthapp.image
+  pk: 163
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000076_2500_0017_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 164
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000076_2500_0017_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 165
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 4, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000076_2500_0017_rgb.jp2}
+  model: blueearthapp.image
+  pk: 166
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000077_2500_0015_change.jp2}
+  model: blueearthapp.image
+  pk: 167
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000077_2500_0015_cir.jp2}
+  model: blueearthapp.image
+  pk: 168
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000077_2500_0015_color.jp2}
+  model: blueearthapp.image
+  pk: 169
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000077_2500_0015_fpar.jp2}
+  model: blueearthapp.image
+  pk: 170
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000077_2500_0015_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 171
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000077_2500_0015_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 172
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 9, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000077_2500_0015_rgb.jp2}
+  model: blueearthapp.image
+  pk: 173
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000080_2500_0019_change.jp2}
+  model: blueearthapp.image
+  pk: 174
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000080_2500_0019_cir.jp2}
+  model: blueearthapp.image
+  pk: 175
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000080_2500_0019_color.jp2}
+  model: blueearthapp.image
+  pk: 176
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000080_2500_0019_fpar.jp2}
+  model: blueearthapp.image
+  pk: 177
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000080_2500_0019_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 178
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000080_2500_0019_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 179
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 11, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000080_2500_0019_rgb.jp2}
+  model: blueearthapp.image
+  pk: 180
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000081_2500_0016_change.jp2}
+  model: blueearthapp.image
+  pk: 181
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000081_2500_0016_cir.jp2}
+  model: blueearthapp.image
+  pk: 182
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 7,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000081_2500_0016_color.jp2}
+  model: blueearthapp.image
+  pk: 183
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000081_2500_0016_fpar.jp2}
+  model: blueearthapp.image
+  pk: 184
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000081_2500_0016_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 185
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000081_2500_0016_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 186
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 7, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000081_2500_0016_rgb.jp2}
+  model: blueearthapp.image
+  pk: 187
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000082_2500_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 188
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000082_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 189
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000082_2500_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 190
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000082_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 191
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000082_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 192
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 6, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000082_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 193
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000084_2500_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 194
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000084_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 195
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000084_2500_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 196
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000084_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 197
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000084_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 198
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 14, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000084_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 199
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 6,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000085_2500_0002_change.jp2}
+  model: blueearthapp.image
+  pk: 200
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000085_2500_0002_cir.jp2}
+  model: blueearthapp.image
+  pk: 201
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 8,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000085_2500_0002_fpar.jp2}
+  model: blueearthapp.image
+  pk: 202
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000085_2500_0002_ndvi.jp2}
+  model: blueearthapp.image
+  pk: 203
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000085_2500_0002_ndvihd.jp2}
+  model: blueearthapp.image
+  pk: 204
+- fields: {aircraft: null, camera: null, capture_date: 2010-02-12, croptype: null,
+    description: ' ', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 13, published_date: null, resolution: 10, server: null, webserver_layer: 20100212_000085_2500_0002_rgb.jp2}
+  model: blueearthapp.image
+  pk: 205

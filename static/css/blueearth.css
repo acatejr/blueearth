@@ -1,0 +1,98 @@
+body
+{
+   font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+   padding: 0px; margin: 0px;
+   background-color: #ffffff;
+   font-size: .80em;
+   color:#555555;
+}
+
+input, #properties
+{
+   font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.ui-layout-pane
+{
+   /* all 'panes' */
+   background: #FFF;
+   border: 1px solid #bbb;
+   padding: 0px;
+   overflow: auto;
+}
+
+.ui-layout-resizer
+{
+   /* all 'resizer-bars' */
+   background: #ddd;
+}
+
+.ui-layout-west
+{
+   width: 252px !important;
+}
+
+.ui-layout-north
+{
+   padding: 4px 0px 4px 0px !important;
+   overflow: hidden !important;
+   background-image: url(../images/header_background.gif) !important;
+   /*height: 100px !important;*/
+}
+
+.item-list
+{
+   width: 200px;
+}
+
+#map { width: 100%; height: 100%;}
+
+#logo
+{
+   position: relative;
+   float: left;
+   padding: 8px 0px 0px 0px;
+}
+
+#console
+{
+   position: relative;
+   float: left;
+   height: 100%;
+   width: 450px;
+   padding-top: 3px;
+   color: #ffffff;
+}
+
+.console-item
+{
+   position: relative;
+   float: left;
+   padding-right: 5px;
+}
+
+#lat, #lon, #distance, #bearing, #area, #perimeter, #length, #elevation
+{
+   color: #000000;
+   border: 1px solid #bbbbbb; width: 100px; background-color: #ffffff;
+}
+
+#user
+{
+   position: relative;
+   float: right;
+}
+
+#user a, span
+{
+   text-decoration: white;
+   color: #ffffff;
+   visited: #ffffff;
+   hover: #ffffff;
+   active: #ffffff;
+}
+
+#login_message, #reset_message
+{
+   color: #ff0000;
+}

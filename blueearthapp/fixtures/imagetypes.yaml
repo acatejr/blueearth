@@ -1,0 +1,21 @@
+- fields: {extension: _rgb.jp2, name: RGB}
+  model: blueearthapp.imagetype
+  pk: 1
+- fields: {extension: _cir.jp2, name: CIR}
+  model: blueearthapp.imagetype
+  pk: 2
+- fields: {extension: _ndvi.jp2, name: NDVI}
+  model: blueearthapp.imagetype
+  pk: 3
+- fields: {extension: _hdndvi.jp2, name: HD NDVI}
+  model: blueearthapp.imagetype
+  pk: 5
+- fields: {extension: _cd.jp2, name: Change Detection}
+  model: blueearthapp.imagetype
+  pk: 6
+- fields: {extension: _cv.jp2, name: Color Variation}
+  model: blueearthapp.imagetype
+  pk: 7
+- fields: {extension: _lcfpar.jp2, name: Leaf Cover (FPAR)}
+  model: blueearthapp.imagetype
+  pk: 8

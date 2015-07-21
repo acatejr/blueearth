@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+   <head>
+
+      <title>Welcome to Blue Earth Imaging</title>
+      <link type='text/css' href='{{media_url}}css/blueearth.css' rel='stylesheet'></link>
+      <link type='text/css' href='{{media_url}}css/markup_tools.css' rel='stylesheet'></link>
+      <link type='text/css' href='{{media_url}}css/start/jquery-ui-1.7.1.custom.css' rel='stylesheet'></link>
+      <link type="text/css" href="{{media_url}}css/blue/style.css" rel="stylesheet" />
+
+      <script type="text/javascript" src="{{media_url}}js/jquery-1.4.min.js"/></script>
+      <script type="text/javascript" src="{{media_url}}js/ui.core.js"></script>
+      <script type="text/javascript" src="{{media_url}}js/ui.draggable.js"></script>
+      <script type="text/javascript" src="{{media_url}}js/ui.resizable.js"></script>
+      <script type="text/javascript" src="{{media_url}}js/ui.dialog.js"></script>
+      <script type="text/javascript" src="{{media_url}}js/jquery.layout.min-1.2.0.js"></script>
+      <script type="text/javascript" src="http://www.google.com/jsapi?key={{ google_maps_api }}"></script>
+      <script type='text/javascript' src='{{media_url}}js/blueearth.js'></script>
+      <script type='text/javascript' src='{{media_url}}js/wms236.js'></script>
+      <script type='text/javascript'>
+      // Load the google maps api
+      google.load("maps", "2");
+
+      var map = null;
+
+      // The current map center
+      var center = {'lat':32.95077, 'lon':-115.504889488};
+
+      //var property = {{property|safe}};
+
+      // The current map zoom level
+      var zoom = 10;
+
+      var static_media = '{{ media_url }}';
+
+      function load()
+      {
+         map = new GMap2(document.getElementById("map"),{mapTypes:[G_NORMAL_MAP, G_HYBRID_MAP], googleBarOptions:{style:"new"}});
+         map.addControl(new GLargeMapControl());
+         map.addControl(new GMapTypeControl());
+         map.enableScrollWheelZoom();
+         map.enableGoogleBar();
+         map.setCenter(new GLatLng(center.lat, center.lon), zoom);
+
+         // Maximize the map size in current div or window
+         map.getInfoWindow().maximize();
+
+         GEvent.addListener(map, 'mousemove', function(latlon)
+         {
+            var pixelLocation = map.fromLatLngToDivPixel(latlon);
+            $('#lat').html(latlon.lat().toFixed(5));
+            $('#lon').html(latlon.lng().toFixed(5));
+         });
+      }
+
+      </script>
+
+   </head>
+   <body onload='load()'>
+      <div id="dialog" title='Blue Earth Imaging'></div>
+      <div class="ui-layout-north">
+         {% block header %}
+            <div id='logo'>
+               <img src='{{media_url}}images/logo.gif'/>
+            </div>
+            {% block console %}
+            {% endblock %}
+         {% endblock %}
+   
+         {% if user.is_authenticated %}
+            <div id='user'>
+               <span>Welcome: {{ user.username }}</span> | <a href='/blueearth/logout/'>logout</a>&nbsp;
+            </div>
+         {% endif %}
+
+      </div>
+
+      <div class="ui-layout-center">
+         {% block content %}
+         {% endblock %}
+      </div>
+
+      <div class="ui-layout-west">
+         {% block left_panel %}
+         {% endblock %}
+      </div>
+   </body>
+</html>

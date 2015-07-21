@@ -1,0 +1,101 @@
+.markup_tool
+{  
+   width: 32px;
+   height: 32px;
+   padding: 0px 0px 0px 0px;
+}
+
+#measure 
+{		
+   background-image: url(../images/measureu.png);
+   background-repeat: no-repeat;
+}
+
+#measure.selected 
+{
+	background-image: url(../images/measured.png);
+}
+
+#addpoint
+{
+   background-image: url(../images/pointu.png);
+   background-repeat: no-repeat;
+}
+
+#addpoint.selected
+{
+   background-image: url(../images/pointd.png);
+}
+
+#addline
+{
+   background-image: url(../images/lineu.png);
+   background-repeat: no-repeat;
+}
+
+#addline.selected
+{
+   background-image: url(../images/lined.png);
+}
+
+#addpolygon
+{
+   background-image: url(../images/polygonu.png);
+   background-repeat: no-repeat;
+}
+
+#addpolygon.selected
+{
+   background-image: url(../images/polygond.png);
+}
+
+#exportlink
+{
+   background-image: url(../images/export_link.png);
+}
+
+#add_gps_point
+{
+   background-image: url(../images/add_gps_point.gif);
+   background-repeat: no-repeat;
+}
+
+#add_gps_point.selected
+{
+   background-image: url(../images/add_gps_point_selected.gif);
+}
+
+#export_gps
+{
+	background-image: url(../images/export_markup.gif);
+   background-repeat: no-repeat;
+}
+
+#clear_all_markup
+{
+	
+   font-weight: bold;
+   position: relative; 
+   float: right; 
+   width: 55px; 
+   padding-left: 2px;
+   background-image: url(../images/clear_all_background.png) !important;
+}
+
+#markup_table
+{
+   position: relative;
+   top: 0px;
+   font-size: 0.75em;
+}
+
+.markup_tools_table
+{
+	font-size: 0.75em;
+	background-color: #D5CFC7;
+}
+
+#markup_console
+{
+	font-size: 1em;
+}

@@ -1,0 +1,22 @@
+<html>
+   <head>
+      <title>Blue Earth Imaging - Login</title>
+      <link type='text/css' href='{{media_url}}css/blueearth.css' rel='stylesheet'></link>
+      <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+      <meta name="apple-touch-fullscreen" content="yes" />
+   </head>
+
+   <body>
+      {% include 'header.html' %}
+
+      <div style='width: 300px;'>
+         <form action='/blueearth/mobile_login/' method='post'>
+            <table style='font-size: .95em;'>
+               <tr><td>User Name:</td><td><input type='text' name='uid' value='guest'/></td></tr>
+               <tr><td>Password:</td><td><input type='password' name='pwd' value='password'/></td></tr>
+               <tr><td colspan='2' align='center'><input type='submit' value='Login'/></td></tr>
+            </table>
+         </form>
+      </div>
+   </body>
+</html>

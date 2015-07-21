@@ -1,0 +1,12 @@
+- fields: {name: Alfalfa}
+  model: blueearthapp.croptype
+  pk: 1
+- fields: {name: Citrus}
+  model: blueearthapp.croptype
+  pk: 2
+- fields: {name: Cotton}
+  model: blueearthapp.croptype
+  pk: 3
+- fields: {name: None}
+  model: blueearthapp.croptype
+  pk: 4

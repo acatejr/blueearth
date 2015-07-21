@@ -1,0 +1,744 @@
+UPDATE image set webserver_layer=replace(webserver_layer, 'images_', '')
+UPDATE image set webserver_layer=replace(webserver_layer, 'Images_', '')
+UPDATE image set webserver_layer=replace(webserver_layer, 'IMAGES_', '')
+
+{% properties user %}
+{% include 'calendar.html' %}
+{% imagetypes %}
+{% include 'markuptools.html' %}
+
+
+ {% include 'markup_console.html' %}
+
+      <div id='container'>
+         {% block header %}
+         <div id='header'>
+            <img src='/site_media/images/logo.gif'/>
+            {% block console %}
+            {% endblock %}
+         </div>
+         {% endblock %}
+
+         <div id="leftPanel">
+            {% block left_panel %}
+            {% endblock %}
+         </div>
+
+         <div id='content'>
+            {% block content %}
+            {% endblock %}
+         </div>
+      </div>
+
+- fields: {address: Address, city: City, contact: 1, created_on: 2010-01-22, fax: 555-555-1213,
+    locked: false, name: Test Agency, phone: 555-555-1212, user: 1, zipcode: zipcode}
+  model: blueearthapp.agency
+  pk: 1
+
+
+  - fields:
+    date_joined: 2010-01-13 16:13:23
+    email: acatejr@gmail.com
+    first_name: 'Averill'
+    groups: []
+    is_active: 1
+    is_staff: 1
+    is_superuser: 1
+    last_login: 2010-01-13 20:47:41
+    last_name: 'Cate, Jr'
+    password: sha1$e7799$63dd55f452a5d286c19f3ef1050843c63dc75062
+    user_permissions: []
+    username: acatejr
+  model: auth.user
+  pk: 1
+- fields:
+    date_joined: 2010-01-13 16:13:23
+    email: guest@email.com
+    first_name: 'Guest'
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-01-13 20:47:41
+    last_name: 'User'
+    password: sha1$dfb50$4f9f27e455e8f36f3f3bccbfb5816c8dfd47cd46
+    user_permissions: []
+    username: guest
+  model: auth.user
+  pk: 2
+- fields: {name: None}
+  model: blueearthapp.croptype
+  pk: 1
+- fields: {name: Alfalfa}
+  model: blueearthapp.croptype
+  pk: 2
+- fields: {name: Citrus}
+  model: blueearthapp.croptype
+  pk: 3
+- fields: {name: Cotton}
+  model: blueearthapp.croptype
+  pk: 4
+- fields: {name: Other}
+  model: blueearthapp.croptype
+  pk: 5
+- fields: {extension: _rgb.jp2, name: RGB}
+  model: blueearthapp.imagetype
+  pk: 1
+- fields: {extension: _cir.jp2, name: CIR}
+  model: blueearthapp.imagetype
+  pk: 2
+- fields: {extension: _ndvi.jp2, name: NDVI}
+  model: blueearthapp.imagetype
+  pk: 3
+- fields: {extension: _ndvihd.jp2, name: NDVI-HD}
+  model: blueearthapp.imagetype
+  pk: 4
+- fields: {area: null, center_elev: null, center_lat: null, center_lon: null, created_on: 2010-01-15,
+    croptype: null, field_number: '', locked: false, name: Test Property 1, resolution: null,
+    user: 2, zoom: null}
+  model: blueearthapp.property
+  pk: 1
+- fields: {area: null, center_elev: null, center_lat: null, center_lon: null, created_on: 2010-01-15,
+    croptype: null, field_number: '', locked: false, name: Test Property 2, resolution: null,
+    user: 2, zoom: null}
+  model: blueearthapp.property
+  pk: 2
+- fields: {area: null, center_elev: null, center_lat: null, center_lon: null, created_on: 2010-01-15,
+    croptype: null, field_number: '', locked: false, name: Test acatejr property 1,
+    resolution: null, user: 1, zoom: null}
+  model: blueearthapp.property
+  pk: 3
+- fields: {area: null, center_elev: null, center_lat: null, center_lon: null, created_on: 2010-01-15,
+    croptype: null, field_number: '', locked: false, name: Test acatejr property 2,
+    resolution: null, user: 1, zoom: null}
+  model: blueearthapp.property
+  pk: 4
+- fields: {name: 1976 Cessna Cardinal 177}
+  model: blueearthapp.aircraft
+  pk: 1
+- fields: {name: M5}
+  model: blueearthapp.server
+  pk: 1
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-21, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetypes: 1,
+    locked: false, property: 1, published_date: null, resolution: null, server: null,
+    webserver_layer: brandenberg1.ecw}
+  model: blueearthapp.image
+  pk: 1
+- fields: {aircraft: null, camera: null, capture_date: 2010-01-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetypes: 2,
+    locked: false, property: 1, published_date: null, resolution: null, server: null,
+    webserver_layer: niland_rgb_georef.ecw}
+  model: blueearthapp.image
+  pk: 2
+- fields: {address: '3661 N Campbell Ave #372', city: Tucson, created_on: 2010-01-14,
+    fax: '', is_agency_admin: false, locked: false, phone: 520-370-6997, user: 1,
+    zipcode: '85719'}
+  model: blueearthapp.userprofile
+  pk: 1
+
+
+#from django.contrib.auth.models import User, Group
+#from django.contrib.localflavor.us.forms import USPhoneNumberField, USStateField
+#from django.db.models.fields.related import OneToOneField
+#
+#class UserProfile(models.Model):
+#
+#   # Associate the profile with a user
+#   user = OneToOneField(User)
+#
+#   # Can the user manage other data within an Agency
+#   is_agency_admin = models.NullBooleanField(default=False, null=True, blank=True)
+#
+#   # User's street address
+#   address = models.CharField(max_length=150, null=True, blank=True)
+#
+#   # User's street city
+#   city = models.CharField(max_length=100, null=True, blank=True)
+#
+#   # User's state
+#   state = models.CharField(max_length=2, null=True, blank=True)
+#
+#   # User's zipcode
+#   zipcode = models.CharField(max_length=11, null=True, blank=True)
+#
+#   # Date user record was created
+#   created_on = models.DateField(auto_now=True, null=True, blank=True)
+#
+#   # User account is locked or not
+#   locked = models.NullBooleanField(default=False, null=True, blank=True)
+#
+#   # User phone number
+#   phone = models.CharField(max_length=12, null=True, blank=True)
+#
+#   # User fax number
+#   fax = models.CharField(max_length=12, null=True, blank=True)
+#
+#   def username(self):
+#      #return '%s %s' % (self.user.first_name, self.user.last_name)
+#      return '%s' % self.user.username
+#
+#   def __str__(self):
+#      return '%s' % (self.user.username)
+#
+#   class Meta:
+#      verbose_name_plural = "User Profiles"
+#      db_table = "user_profiles"
+#
+#class GroupProfile(models.Model):
+#
+#   # Associate the profile with a user
+#   group = OneToOneField(Group)
+#
+#    # User's street address
+#   address = models.CharField(max_length=150, null=True, blank=True)
+#
+#   # User's street city
+#   city = models.CharField(max_length=100, null=True, blank=True)
+#
+#   # User's state
+#   #state = USStateField()
+#   state = models.CharField(max_length=2, null=True, blank=True)
+#
+#   # User's zipcode
+#   zipcode = models.CharField(max_length=11, null=True, blank=True)
+#
+#   # Date user record was created
+#   created_on = models.DateField(auto_now=True, null=True, blank=True)
+#
+#   # User account is locked or not
+#   locked = models.NullBooleanField(default=False, null=True, blank=True)
+#
+#   # User phone number
+#   phone = models.CharField(max_length=12, null=True, blank=True)
+#
+#   # User fax number
+#   fax = models.CharField(max_length=12, null=True, blank=True)
+#
+#   def username(self):
+#      #return '%s %s' % (self.user.first_name, self.user.last_name)
+#      return '%s' % self.user.username
+#
+#   def __str__(self):
+#      return '%s' % (self.group.name)
+#
+#   class Meta:
+#      verbose_name_plural = "Group Profiles"
+#      db_table = "group_profiles"
+#
+#class CropType(models.Model):
+#   """ Crop type object """
+#
+#   # The crop type name
+#   name = models.CharField(max_length=25)
+#
+#   def __str__(self):
+#      return '%s' % (self.name)
+#
+#   class Meta:
+#      verbose_name_plural = "Crop Types"
+#      db_table = "croptypes"
+#
+#class ImageType(models.Model):
+#   """ Image type object """
+#
+#   # The image type name
+#   name = models.CharField(max_length=25)
+#
+#   # The file extension for the image type
+#   extension = models.CharField(max_length=25)
+#
+#   def __str__(self):
+#      return '%s' % (self.name)
+#
+#   class Meta:
+#     verbose_name_plural = "Image Types"
+#     db_table = "imagetypes"
+#
+#class Property(models.Model):
+#   """ Property object """
+#
+#   # A property has one or more users
+#   #user = models.OneToOneField(User, null=True, blank=True)
+#   user = models.ForeignKey(User)
+#   #user = models.ForeignKey(UserProfile)
+#   #group = models.OneToOneField(Group, null=True, blank=True)
+#
+#
+#   # The property name
+#   name = models.CharField(max_length=100, null=True, blank=True)
+#
+#   # The property number could be number or character or combo
+#   field_number = models.CharField(max_length=25, null=True, blank=True)
+#
+#   # center latitude
+#   center_lat = models.FloatField(null=True, blank=True)
+#
+#   # center longitude
+#   center_lon = models.FloatField(null=True, blank=True)
+#
+#   # center elevation
+#   center_elev = models.FloatField(null=True, blank=True)
+#
+#   # starupt zoom level
+#   zoom = models.IntegerField(max_length=2, null=True, blank=True)
+#
+#   # resolution image was captured at
+#   resolution = models.IntegerField(max_length=10, null=True, blank=True)
+#
+#   # the surface area of the property
+#   area = models.FloatField(null=True, blank=True)
+#
+#   # the property's current croptype
+#   croptype = models.OneToOneField(CropType, null=True, blank=True)
+#
+#   # Property is locked or not
+#   locked = models.NullBooleanField(default=False, null=True, blank=True)
+#
+#   # Date property record was created
+#   created_on = models.DateField(auto_now=True, null=True, blank=True)
+#
+#   def propid(self):
+#      return '%s' % (self.id)
+#
+#   def __str__(self):
+#      return '%s' % (self.name)
+#
+#   class Meta:
+#      verbose_name_plural = "Properties"
+#      db_table = "properties"
+
+#
+#class AirCraft(models.Model):
+#   """ Aircraft object """
+#
+#   # the aircraft name
+#   name = models.CharField(max_length=100)
+#
+#   def __str__(self):
+#      return '%s' % (self.name)
+#
+#   class Meta:
+#      verbose_name_plural = "Aircraft"
+#      db_table = "aircraft"
+#
+#class Camera(models.Model):
+#   """ Camera object """
+#
+#   # the camera name
+#   name = models.CharField(max_length=100)
+#
+#   def __str__(self):
+#      return '%s' % (self.name)
+#
+#   class Meta:
+#      verbose_name_plural = "Cameras"
+#      db_table = "cameras"
+#
+#class Server(models.Model):
+#   """ Server object """
+#
+#   # the server name
+#   name = models.CharField(max_length=100)
+#
+#   def __str__(self):
+#      return '%s' % (self.name)
+#
+#   class Meta:
+#      verbose_name_plural = "Servers"
+#      db_table = "servers"
+#
+
+##class Agency(models.Model):
+##   """ Agency object """
+##
+##   # An agency has one or more users
+##   user = models.ForeignKey(User)
+##
+##   #user = models.ForeignKey(UserProfile)
+##
+##   # The agency name
+##   name = models.CharField(max_length=150)
+##
+##   # Agency's street address
+##   address = models.CharField(max_length=150)
+##
+##   # Agency's street city
+##   city = models.CharField(max_length=100)
+##
+##   # Agency's state
+##   state = USStateField()
+##
+##   # Agency's zipcode
+##   zipcode = models.CharField(max_length=11)
+##
+##   # Date agency record was created
+##   created_on = models.DateField(auto_now=True)
+##
+##   # Agency account is locked or not
+##   locked = models.NullBooleanField(default=False)
+##
+##   # Agency phone number
+##   phone = models.CharField(max_length=12)
+##
+##   # Agency fax number
+##   fax = models.CharField(max_length=12)
+##
+##   # Every agency has one contact
+##   # Need to specify a related_name value because have a relationship to user table through user field
+##   contact = OneToOneField(User, related_name="%(class)s_related")
+##
+##   def __str__(self):
+##      return '%s' % (self.name)
+##
+##   class Meta:
+##      verbose_name_plural = "Agencies"
+#      db_table = "agencies"
+
+#   if request.user.is_authenticated():
+#      user = request.user
+#
+#      print 'customer: %s' % len(Customer.objects.filter(id=user.id))
+#      print 'agent: %s' % len(Agent.objects.filter(id=user.id))
+#
+#
+#      if user.is_superuser:
+#         agencies = Group.objects.all() #Agency.objects.all()
+#         return render_to_response('index.html', {'user':user,
+#                                                  'agencies':agencies,
+#                                                  'google_maps_api':settings.GOOGLE_MAPS_API,
+#                                                  'media_url':settings.MEDIA_URL})
+#      if user.userprofile.is_agent:
+#         # If the user is an agent then should only have one agency
+#         agency = user.groups.all()[0]
+#         agents = agency.user_set.all()
+#         return render_to_response('index.html', {'user':user,
+#                                                  'agents':agents,
+#                                                  'google_maps_api':settings.GOOGLE_MAPS_API,
+#                                                  'media_url':settings.MEDIA_URL})
+#      else:
+#         properties = user.property_set.order_by('name')
+#         return render_to_response('index.html', {'user':user,
+#                                                  'properties':properties,
+#                                                  'google_maps_api':settings.GOOGLE_MAPS_API,
+#                                                  'media_url':settings.MEDIA_URL})
+#   else:
+#      return render_to_response('login.html', {'media_url':settings.MEDIA_URL})
+
+#         properties = ""
+#         for p in user.property_set.order_by('name'):
+#            i = ','.join('{"id":"%s", "layer":"%s", "capture_date":"%s", "type":"%s"}' % (i.id, i.webserver_layer,
+#                                                                                          i.capture_date.strftime('%m-%d-%Y'),
+#                                                                                          i.imagetypes.id) for i in p.image_set.all())
+#            properties += '{"id":"%s", "name":"%s","images":[%s]}' % (p.id, p.name, i) + ","
+#
+#         if properties[len(properties)-1:len(properties)] == ',':
+#            properties = properties[0:len(properties)-1]
+
+#   user = authenticate(username=uid, password=pwd)
+#   if user is not None:
+#      if user.is_active:
+#         request.user = user
+#         djlogin(request, user)
+#         return HttpResponseRedirect("/blueearth")
+#      else:
+#         return render_to_response('disabled.html')
+#   else:
+#      return render_to_response('login.html', {'media_url':settings.MEDIA_URL})
+
+   #srs = osgeo.osr.SpatialReference()
+   #srs.SetWellKnownGeogCS("UTM");
+   #srs.SetUTM(11);
+
+   def password_reset(request):
+   """ Handles a user request to reset a password """
+
+   # Error messages
+   message = None
+
+   if 'fname' in request.POST and 'lname' in request.POST and 'uid' in request.POST and 'new_pwd' in request.POST:
+      fname = request.POST['fname']
+      lname = request.POST['lname']
+      uid = request.POST['uid']
+      new_pwd = request.POST['new_pwd']
+
+      if len(fname) == 0:
+         message = 'User first name required!'
+      elif len(lname) == 0:
+         message = 'User last name required!'
+      elif len(uid) == 0:
+         message = 'User ID required!'
+      elif len(new_pwd) == 0:
+         message = 'New password required!'
+      else:
+         try:
+            person = Person.objects.get(first_name=fname, last_name=lname, username=uid)
+            person.password = new_pwd
+            person.save()
+            message = 'Password reset successfull.'
+            return render_to_response('login.html', {'media_url':settings.MEDIA_URL, 'message':message})
+         except ObjectDoesNotExist:
+            message = 'User not found.'
+
+   return render_to_response('password_reset.html', {'media_url':settings.MEDIA_URL, 'message':message})
+
+      # Make sure user is logged in first
+#   if 'user' in request.session:
+#      user = request.session['user']
+#
+#      if not user == None:
+#         # An agent gets to see a list of all other agents in same Agency
+#         if user.type.name == 'Agent':
+#            agency = Agency.objects.get(id=user.agency.id)
+#            agents = agency.person_set.filter(type=1)
+#            return render_to_response('index.html', {'user':user,
+#                                                     'agents':agents,
+#                                                     'google_maps_api':settings.GOOGLE_MAPS_API,
+#                                                     'media_url':settings.MEDIA_URL})
+#
+#         # A customer only gets to see his properties
+#         elif user.type.name == 'Customer':
+#            properties = Property.objects.filter(customer=user.id)
+#            return render_to_response('index.html', {'user':user,
+#                                                     'properties':properties,
+#                                                     'google_maps_api':settings.GOOGLE_MAPS_API,
+#                                                     'media_url':settings.MEDIA_URL})
+#         elif user.type.name == 'User':
+#            properties = Property.objects.filter(user=user.id)
+#            return render_to_response('index.html', {'user':user,
+#                                                     'properties':properties,
+#                                                     'google_maps_api':settings.GOOGLE_MAPS_API,
+#                                                     'media_url':settings.MEDIA_URL})
+#      else:
+#         return render_to_response('login.html', {'media_url':settings.MEDIA_URL})
+#   else:
+#      return render_to_response('login.html', {'media_url':settings.MEDIA_URL})
+
+
+- fields:
+    date_joined: 2010-02-20 13:05:13
+    email: acatejr@gmail.com
+    first_name: Averill
+    groups: []
+    is_active: 1
+    is_staff: 1
+    is_superuser: 1
+    last_login: 2010-02-23 10:38:47
+    last_name: Cate Jr
+    password: sha1$6c079$706207f5d3766529be2a7471be31d3d1a07adfdf
+    user_permissions: []
+    username: acatejr
+  model: auth.user
+  pk: 1
+- fields:
+    date_joined: 2010-02-20 13:20:12
+    email: ''
+    first_name: Helena
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 10:46:30
+    last_name: Chemicals
+    password: sha1$53945$a0c9f4f4e7de610ff3d7408948ae7a94a3e270b8
+    user_permissions: []
+    username: Helena
+  model: auth.user
+  pk: 2
+- fields:
+    date_joined: 2010-02-23 11:09:16
+    email: akalin@hughes.net
+    first_name: Al
+    groups: []
+    is_active: 1
+    is_staff: 0
+    is_superuser: 0
+    last_login: 2010-02-23 10:46:53
+    last_name: Kalin
+    password: sha1$46ccc$e71c7d71e997c04f21e0d33fd7c5ee62eb0c2630
+    user_permissions: []
+    username: akalin
+  model: auth.user
+  pk: 3
+- fields: {name: Alfalfa}
+  model: blueearthapp.croptype
+  pk: 1
+- fields: {name: Citrus}
+  model: blueearthapp.croptype
+  pk: 2
+- fields: {name: Cotton}
+  model: blueearthapp.croptype
+  pk: 3
+- fields: {name: None}
+  model: blueearthapp.croptype
+  pk: 4
+- fields: {extension: _rgb.jp2, name: RGB}
+  model: blueearthapp.imagetype
+  pk: 1
+- fields: {extension: _cir.jp2, name: CIR}
+  model: blueearthapp.imagetype
+  pk: 2
+- fields: {extension: _ndvi.jp2, name: NDVI}
+  model: blueearthapp.imagetype
+  pk: 3
+- fields: {extension: _hdndvi.jp2, name: HD NDVI}
+  model: blueearthapp.imagetype
+  pk: 5
+- fields: {extension: _cd.jp2, name: Change Detection}
+  model: blueearthapp.imagetype
+  pk: 6
+- fields: {extension: _cv.jp2, name: Color Variation}
+  model: blueearthapp.imagetype
+  pk: 7
+- fields: {extension: _lcfpar.jp2, name: Leaf Cover (FPAR)}
+  model: blueearthapp.imagetype
+  pk: 8
+- fields: {name: 1976 Cessna Cardinal 177}
+  model: blueearthapp.aircraft
+  pk: 1
+- fields: {name: M5}
+  model: blueearthapp.server
+  pk: 1
+- fields: {address: 225 Schilling Blvd., city: Brawley, created_on: 2010-02-20, fax: '',
+    locked: 0, name: Helena Chemicals, phone: '', state: CA, type: 0, zipcode: '38017'}
+  model: blueearthapp.organization
+  pk: 1
+- fields: {address: 5300 Kalin Rd, city: Brawley, created_on: 2010-02-23, fax: '',
+    locked: 0, name: Kalin Farms, phone: '', state: CA, type: 1, zipcode: 92227-9804}
+  model: blueearthapp.organization
+  pk: 2
+- fields: {organization: 1, user: 2}
+  model: blueearthapp.membership
+  pk: 1
+- fields: {organization: 2, user: 3}
+  model: blueearthapp.membership
+  pk: 2
+- fields:
+    agency: []
+    agent: [2]
+    area: null
+    center_elev: null
+    center_lat: 33.08043
+    center_lon: -115.65282000000001
+    created_on: 2010-02-23
+    croptype: null
+    customer: 2
+    field_number: ''
+    locked: 0
+    name: Kalin Trif 9
+    resolution: null
+    zoom: 10
+  model: blueearthapp.property
+  pk: 1
+- fields:
+    agency: []
+    agent: [2]
+    area: null
+    center_elev: null
+    center_lat: 33.035469999999997
+    center_lon: -115.53961
+    created_on: 2010-02-23
+    croptype: null
+    customer: 2
+    field_number: ''
+    locked: 0
+    name: Kalin Fuller
+    resolution: null
+    zoom: 10
+  model: blueearthapp.property
+  pk: 2
+- fields:
+    agency: []
+    agent: []
+    area: null
+    center_elev: null
+    center_lat: 33.055599999999998
+    center_lon: -115.6604
+    created_on: 2010-02-20
+    croptype: null
+    customer: 2
+    field_number: ''
+    locked: 0
+    name: Kalin BN1, BN2
+    resolution: null
+    zoom: 10
+  model: blueearthapp.property
+  pk: 3
+- fields: {aircraft: null, camera: null, capture_date: 2009-04-04, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 1, published_date: null, resolution: null, server: null,
+    webserver_layer: kalin_trif_9_155-156_rgb.ecw}
+  model: blueearthapp.image
+  pk: 1
+- fields: {aircraft: null, camera: null, capture_date: 2009-04-04, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 1, published_date: null, resolution: null, server: null,
+    webserver_layer: kalin_trif_9_rgb_ir.ecw}
+  model: blueearthapp.image
+  pk: 2
+- fields: {aircraft: null, camera: null, capture_date: 2009-04-24, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 1, published_date: null, resolution: null, server: null,
+    webserver_layer: kalin_trif_9_ndvi_georef_250.ecw}
+  model: blueearthapp.image
+  pk: 3
+- fields: {aircraft: null, camera: null, capture_date: 2009-06-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 2, published_date: null, resolution: null, server: null,
+    webserver_layer: al_kalin_fuller_12band_georef_250_cropped_rgb.ecw}
+  model: blueearthapp.image
+  pk: 4
+- fields: {aircraft: null, camera: null, capture_date: 2009-06-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 2, published_date: null, resolution: null, server: null,
+    webserver_layer: al_kalin_fuller_12band_georef_250_cropped_ndvi.ecw}
+  model: blueearthapp.image
+  pk: 5
+- fields: {aircraft: null, camera: null, capture_date: 2009-06-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 2, published_date: null, resolution: null, server: null,
+    webserver_layer: al_kalin_fuller_12band_georef_250_cropped_ndvihd.ecw}
+  model: blueearthapp.image
+  pk: 6
+- fields: {aircraft: null, camera: null, capture_date: 2009-06-12, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 2, published_date: null, resolution: null, server: null,
+    webserver_layer: al_kalin_fuller_12band_georef_250_cropped_cir.ecw}
+  model: blueearthapp.image
+  pk: 7
+- fields: {aircraft: null, camera: null, capture_date: 2009-01-01, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalin-bn1-bn2_250_rgb.jp2}
+  model: blueearthapp.image
+  pk: 8
+- fields: {aircraft: null, camera: null, capture_date: 2009-01-01, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalin-bn1-bn2_250_cir.jp2}
+  model: blueearthapp.image
+  pk: 9
+- fields: {aircraft: null, camera: null, capture_date: 2009-07-11, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 2,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalinbnx_250_cir.ecw}
+  model: blueearthapp.image
+  pk: 10
+- fields: {aircraft: null, camera: null, capture_date: 2009-07-11, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 3,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalinbnx_250_ndvi.ecw}
+  model: blueearthapp.image
+  pk: 11
+- fields: {aircraft: null, camera: null, capture_date: 2009-07-11, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 5,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalinbnx_250_ndvihd.ecw}
+  model: blueearthapp.image
+  pk: 12
+- fields: {aircraft: null, camera: null, capture_date: 2009-07-11, croptype: null,
+    description: '', flight_time: null, image_processing_version: '', imagetype: 1,
+    locked: 0, property: 3, published_date: null, resolution: null, server: null,
+    webserver_layer: alkalinbnx_250_rgb.ecw}
+  model: blueearthapp.image
+  pk: 13
